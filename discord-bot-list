@@ -2,15 +2,15 @@ lit install SinisterRectus/discordia
 composer require team-reflex/discord-php
 pip3 install -r requirements.txt --user
 npm install --unsafe-perm
-luvit {{LUA_BOT}}
-php {{PHP_BOT}}
-node {{NODEJS_FILE}}
+luvit ${LUA_BOT}
+php ${PHP_BOT}
+node ${NODEJS_FILE}
 npm start
-pip3 install {{PYTHON_PACKAGE}} --user
-npm install --unsafe-perm {{NODEJS_PACKAGE}}
-python3 {{PYTHON_FILE}}
-python {{PYTHON_FILE}}
-node {{TYPESCRIPT_FILE}}
-tsc --outDir {{COMPILE_FOLDER}} --strictPropertyInitialization false
-npm uninstall {{NODEJS_PACKAGE}}
-pm2 {{NODEJS_FILE}}
+pip3 install ${PYTHON_PACKAGE} --user
+npm install --unsafe-perm ${NODEJS_PACKAGE}
+python3 ${PYTHON_FILE}
+python ${PYTHON_FILE}
+node ${TYPESCRIPT_FILE}
+tsc --outDir ${COMPILE_FOLDER} --strictPropertyInitialization false
+npm uninstall ${NODEJS_PACKAGE}
+pm2 ${NODEJS_FILE}
