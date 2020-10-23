@@ -13,4 +13,4 @@ python ${PYTHON_FILE}
 node ${TYPESCRIPT_FILE}
 tsc --outDir ${COMPILE_FOLDER} --strictPropertyInitialization false
 npm uninstall ${NODEJS_PACKAGE}
-pm2 ${NODEJS_FILE}
+pm2 start ${NODEJS_FILE}
