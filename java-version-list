@@ -1,7 +1,10 @@
 Available java versions list
-
+1.15.0
+1.15.0-1
 1.14.0
 1.14.0-1
+adopt@1.15.0-1
+adopt@1.15.0
 adopt@1.14.0-1
 adopt@1.14.0-0
 adopt@1.13.0-2
@@ -30,6 +33,8 @@ adopt@1.8.0-202
 adopt@1.8.0-192
 adopt@1.8.0-181
 adopt@1.8.0-172
+adopt-openj9@1.15.0-1
+adopt-openj9@1.15.0
 adopt-openj9@1.14.0-1
 adopt-openj9@1.14.0-0
 adopt-openj9@1.13.0-2
